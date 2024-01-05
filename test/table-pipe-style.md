@@ -6,7 +6,7 @@
   }
 } -->
 
-## Missing in Heading Row
+## Missing in Header Row
 
 | Table | {MD055}
 |-------|---------|
@@ -19,52 +19,52 @@
 
 ## Missing in Separator Row
 
-| Table | Heading |
+| Table | Header  |
 |-------|---------
 
 {MD055:-2}
 
-| Table | Heading |
+| Table | Header  |
  -------|---------|
 
 {MD055:-2}
 
-| Table | Heading |
+| Table | Header  |
  -------|---------
 
 {MD055:-2}
 
 ## Missing Leading and Trailing
 
- {MD055} | Heading
----------|---------
+ {MD055} | Header
+---------|--------
  {MD055} | Cell
 
 {MD055:-3}
 
- {MD055} | Heading
---------:|:-------:
+ {MD055} | Header
+--------:|:------:
  {MD055} | Cell
 
 {MD055:-3}
 
-| Table   | Heading |
+| Table   | Header  |
 |--------:|:--------|
   {MD055} | Cell
 
-| Table   | Heading |
+| Table   | Header  |
 |---------|---------|
   {MD055} | Cell
 | Cell    | Cell    |
 | Cell    | Cell    |
 
-| Table   | Heading |
+| Table   | Header  |
 |---------|---------|
 | Cell    | Cell    |
   {MD055} | Cell
 | Cell    | Cell    |
 
-| Table   | Heading |
+| Table   | Header  |
 |---------|---------|
 | Cell    | Cell    |
 | Cell    | Cell    |
@@ -72,23 +72,23 @@
 
 ## Missing Trailing
 
-| Table   | Heading |
+| Table   | Header  |
 |--------:|:--------|
 | {MD055} | Cell
 
-| Table   | Heading |
+| Table   | Header  |
 |---------|---------|
 | {MD055} | Cell
 | Cell    | Cell    |
 | Cell    | Cell    |
 
-| Table   | Heading |
+| Table   | Header  |
 |---------|---------|
 | Cell    | Cell    |
 | {MD055} | Cell
 | Cell    | Cell    |
 
-| Table   | Heading |
+| Table   | Header  |
 |---------|---------|
 | Cell    | Cell    |
 | Cell    | Cell    |
@@ -96,23 +96,23 @@
 
 ## Missing Leading
 
-| Table   | Heading |
+| Table   | Header  |
 |--------:|:--------|
   {MD055} | Cell    |
 
-| Table   | Heading |
+| Table   | Header  |
 |---------|---------|
   {MD055} | Cell    |
 | Cell    | Cell    |
 | Cell    | Cell    |
 
-| Table   | Heading |
+| Table   | Header  |
 |---------|---------|
 | Cell    | Cell    |
   {MD055} | Cell    |
 | Cell    | Cell    |
 
-| Table   | Heading |
+| Table   | Header  |
 |---------|---------|
 | Cell    | Cell    |
 | Cell    | Cell    |
@@ -120,10 +120,10 @@
 
 ## Followed by Text
 
-| Table | Heading |
+| Table | Header  |
 |-------|---------|
 | Cell  | Cell    |
-{MD055} Text
+{MD055} {MD056} Text
 
 ## Table inside Blockquote
 
@@ -133,11 +133,11 @@
 
 ## Well-Formed
 
-| Table | Heading |
+| Table | Header  |
 |-------|---------|
 | Cell  | Cell    |
 
-| Table | Heading |
+| Table | Header  |
 |-------|---------|
 | Cell  | Cell    |
 | Cell  | Cell    |
